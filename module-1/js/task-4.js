@@ -11,6 +11,7 @@ if (amount === null) {
   alert(`Вы купили ${amount} дроида, на счету осталось ${credits -
     totalPrice} кредитов.
   `);
-} else if (totalPrice > credits) {
+} else {
+  totalPrice > credits;
   alert('Недостаточно средств на счету!');
 }
