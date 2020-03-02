@@ -10,5 +10,5 @@ do {
   } else {
     total += Number(input);
   }
-} while (input != null);
+} while (input !== null);
 alert('Общая сумма чисел равна ' + total);

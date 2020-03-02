@@ -8,6 +8,5 @@ if (message === null) {
 } else if (message === ADMIN_PASSWORD) {
   alert('Добро пожаловать!');
 } else {
-  ADMIN_PASSWORD;
   alert('Доступ запрещен, неверный пароль!');
 }

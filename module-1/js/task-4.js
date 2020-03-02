@@ -12,6 +12,5 @@ if (amount === null) {
     totalPrice} кредитов.
   `);
 } else {
-  totalPrice > credits;
   alert('Недостаточно средств на счету!');
 }
